@@ -1,0 +1,19 @@
+class DisplayOperations extends Operations
+{
+	public void showAttributes(DisplayOperations obj)
+	{
+		System.out.println(obj.id+ " "+ obj.name+ " "+ obj.percentage+"  "+ obj.skills);
+	}
+	
+	public void showNAME(DisplayOperations obj)
+	{
+		System.out.println(obj.toUpperCase());
+	}
+	
+	public void showDifference(DisplayOperations obj,DisplayOperations obj1)
+	{
+		System.out.println(obj.percentage-obj1.percentage);
+	}
+}
+
+	
